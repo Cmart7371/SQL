@@ -99,5 +99,5 @@ WHERE industry = 'Technology'
 SELECT industry, ROUND(AVG(revenue),1) as avg_revenue_millions
 FROM fortune_companies
 GROUP BY industry
-HAVING avg_revenue_millions>=200
+HAVING avg_revenue_millions>=100
 ;
